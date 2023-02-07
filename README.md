@@ -15,6 +15,6 @@ AHP方法發展目的就是透過樹狀層級結構將複雜問題系統化，�
 <img width="698" alt="截圖 2023-02-07 下午3 08 32" src="https://user-images.githubusercontent.com/81035275/217172618-40556513-e63c-4f24-82a1-f000d2784b69.png">
 
 分數最高則為系統推薦飼養之寵物犬體型大小。
-
+---
 以下連結為透過[Streamlit](https://streamlit.io/)建構之Web app
 + https://ye67890-petdog-decisionahp-st-petdogahp-4kuysu.streamlit.app/
