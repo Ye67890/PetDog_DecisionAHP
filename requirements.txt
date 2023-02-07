@@ -1,3 +1,4 @@
 streamlit==1.14.0
 plotly==5.9.0
 ahpy==2.0
+pip==23.0
