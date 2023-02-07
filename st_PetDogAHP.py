@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 
 DATA_URL = 'https://hellobucketbucket.s3.ap-northeast-1.amazonaws.com/%E5%AF%B5%E7%89%A9%E7%8A%AC%E5%93%81%E7%A8%AE%E8%B3%87%E6%96%99%E5%BA%AB.csv'
 
-@st.cache
+@st.cache(ttl=24*3600)
 def load_data():
     data = pd.read_csv(DATA_URL)
     # lowercase = lambda x: str(x).lower()
